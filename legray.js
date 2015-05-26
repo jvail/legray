@@ -210,7 +210,7 @@ for (var d = 0, ds = weatherData.date.length; d < ds; d++) {
     cuttingDates.push(weatherData.date[d]);
 }
 
-var Y = legrm('sandy loam', weatherData, cuttingDates);
+var Y = legray('sandy loam', weatherData, cuttingDates);
 
 console.log(Y);
 
